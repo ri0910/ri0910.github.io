@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+    /* text-decoration: none; */
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    /* text-decoration: none; */
+}
+#navbar ul li{
+    font-size: 20px;
+}
+#navbar ul li a{
+    color:white;
+    display: block;
+    padding: 5px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin:0px 20px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+    border-radius: 30px;
+}
+/* Home section */
+#home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 34px 34px;
+    margin: 20px 35px;
+    flex-direction: column;
+    text-align: center;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Playfair Display', serif;
+}
+#home h1{
+    /* margin: 25px 25px; */
+    font-size: 35px;
+    padding: 25px;
+}
+#home p{
+    /* margin: 20px 20px; */
+    font-size: 20px;
+    padding: 25px;
+}
+#home::before{
+    content: "";
+    background:url('bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#arts{
+    display: flex;
+    /* justify-content: center; */
+    padding: 34px 34px;
+    margin: 150px 0px 0px 0px;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    height: 15vh;
+    /* background-color: rgb(169 167 167); */
+    background: url('bg5.jpg') center;
+}
+/* Art section */
+#arts h1{
+    text-align: center;
+    font-size: 35px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    /* border: 2px solid red; */
+    /* margin: 40px 0px; */
+}
+#arts ul{
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    justify-content: center;
+}
+#arts ul li{
+    font-size: 20px;
+}
+#arts ul li a{
+    color:white;
+    display: block;
+    padding: 5px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin:10px 20px;
+}
+#arts ul li a:hover{
+    color:black;
+    background-color:rgb(206, 196, 196);
+}
+/* gallery */
+
+#gallery{
+    top: 0px;
+    /* background-color:rgb(169 167 167) ; */
+    background:url('bg5.jpg') center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    /* align-items: center; */
+}
+#sketch{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+#sketch img{
+    margin: 2px 8px 2px 8px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+#sketch img:hover{
+    height: 450px;
+    width: 400px;
+    transform: translate(10px,10px);
+}
+#mandala{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+#mandala img{
+    margin: 2px 8px 2px 8px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+#mandala img:hover{
+    height: 450px;
+    width: 400px;
+    transform: translate(10px,10px);
+}
+#marker{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+#marker img{
+    margin: 2px 8px 2px 8px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+#marker img:hover{
+    height: 450px;
+    width: 400px;
+    transform: translate(10px,10px);
+}
+#colors{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+#colors img{
+    margin: 2px 8px 2px 8px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+#colors img:hover{
+    height: 450px;
+    width: 400px;
+    transform: translate(10px,10px);
+}
