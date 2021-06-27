@@ -1,6 +1,7 @@
 #navbar {
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
 }
 #navbar ul{
     display: flex;
@@ -78,6 +79,7 @@
 }
 #contact-box textarea{
     height: 50px;
+    font-size: 8px;
 }
 .submit{
     height: 20px;
