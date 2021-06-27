@@ -1,0 +1,97 @@
+#navbar {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#home{
+    height: 400px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 580px; 
+}
+#home h1{
+    font-size: 28px;
+}
+#home p{
+    font-size: 16px;
+    padding: 20px
+}
+#arts{
+    height: 150px;
+}
+#arts h1{
+    font-size: 30px;
+}
+#arts ul li{
+    font-size: 17px;
+}
+#gallery img{
+    height: 100px;
+    width:75px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+#gallery img:hover{
+    height: 100px;
+    width: 80px;
+}
+#me{
+    height: 500px;
+}
+#myimage{
+    width: 149px;
+    height: 83px
+}
+#myimage img{
+    height: 121px;
+    width: 117px;
+    border-radius: 150px;
+}
+#about{
+    font-size: 16px;
+}
+#msgme{
+    height: 500px;
+}
+#msgme h1{
+    font-size: 30px;
+}
+.form-group label{
+    font-size: 13px;
+}
+
+#contact-box input{
+    height: 25px;
+    font-size: 8px;
+}
+#contact-box textarea{
+    height: 50px;
+}
+.submit{
+    height: 20px;
+    font-size: 10px;
+}
+#contactme{
+    height: 200px;
+}
+.logo img{
+    height: 40px;
+    width: 30px;
+}
+.logo img:hover{
+height: 50px;
+width: 40px;
+border-radius: 30px;
+}
