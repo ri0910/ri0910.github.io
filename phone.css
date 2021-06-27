@@ -8,9 +8,10 @@
     justify-content: center;
 }
 #navbar ul li a{
-    font-size: 1rem;
+    font-size: 10px;
     padding: 0px 7px;
     padding-bottom: 8px;
+    margin-bottom: 2px;
 }
 /* Home section */
 #home{
@@ -29,13 +30,13 @@
     padding: 20px
 }
 #arts{
-    height: 150px;
+    height: 60px;
 }
 #arts h1{
-    font-size: 30px;
+    font-size: 15px;
 }
 #arts ul li{
-    font-size: 17px;
+    font-size: 7px;
 }
 #gallery img{
     height: 100px;
