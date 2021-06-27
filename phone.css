@@ -1,11 +1,11 @@
 #navbar {
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
 }
 #navbar ul{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 #navbar ul li a{
     font-size: 1rem;
