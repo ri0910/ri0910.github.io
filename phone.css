@@ -15,7 +15,7 @@
 }
 /* Home section */
 #home{
-    height: 400px; 
+    height: 100px; 
     padding: 3px 28px;
 }
 
@@ -23,12 +23,12 @@
     height: 580px; 
 }
 #home h1{
-    font-size: 28px;
+    font-size: 25px;
 }
-#home p{
+/* #home p{
     font-size: 16px;
     padding: 20px
-}
+} */
 #arts{
     height: 60px;
 }
@@ -36,7 +36,7 @@
     font-size: 15px;
 }
 #arts ul li{
-    font-size: 7px;
+    font-size: 10px;
 }
 #gallery img{
     height: 100px;
