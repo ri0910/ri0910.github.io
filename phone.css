@@ -1,6 +1,7 @@
 #navbar {
     flex-direction: column;
     flex-wrap: wrap;
+    height: 100px;
 }
 #navbar ul{
     display: flex;
@@ -12,15 +13,20 @@
     /* padding: 0px 7px;
     padding-bottom: 4px;
     margin-bottom: 2px; */
-    margin: 0px 3px 8px 3px;
-    padding: 6px
+    margin: 0px 4px 8px 4px;
+    padding: 4px
+}
+#logo {
+    margin: 10px 10px;
 }
 #logo img{
-    margin: 2px;
+    /* margin: 2px; */
+    height: 40px;
+    width: 45px;
 }
 /* Home section */
 #home{
-    height: 100px; 
+    height: 150px; 
     padding: 3px 28px;
 }
 
@@ -57,11 +63,12 @@
     width: 80px;
 }
 #me{
-    height: 500px;
+    height: 400px;
 }
 #myimage{
     width: 149px;
-    height: 83px
+    height: 83px;
+    margin: 20px 0px 0px 0px;
 }
 #myimage img{
     height: 121px;

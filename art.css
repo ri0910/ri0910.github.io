@@ -30,7 +30,7 @@
     /* text-decoration: none; */
 }
 #navbar ul li{
-    font-size: 30px;
+    font-size: 25px;
 }
 #navbar ul li a{
     color:white;
@@ -63,7 +63,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 250px;
+    height: 370px;
     /* font-family: 'Oswald', sans-serif; */
     font-family: 'Playfair Display', serif;
 }
