@@ -9,9 +9,14 @@
 }
 #navbar ul li a{
     font-size: 12px;
-    padding: 0px 7px;
-    padding-bottom: 8px;
-    margin-bottom: 2px;
+    /* padding: 0px 7px;
+    padding-bottom: 4px;
+    margin-bottom: 2px; */
+    margin: 0px 3px 8px 3px;
+    padding: 6px
+}
+#logo img{
+    margin: 2px;
 }
 /* Home section */
 #home{
@@ -30,13 +35,15 @@
     padding: 20px
 } */
 #arts{
-    height: 60px;
+    height: 10px;
 }
-#arts h1{
-    font-size: 15px;
-}
-#arts ul li{
+/* #arts h1{
     font-size: 10px;
+} */
+#arts ul li a{
+    font-size: 10px;
+    margin: 2px 2px;
+    padding: 2px 8px;
 }
 #gallery img{
     height: 100px;
